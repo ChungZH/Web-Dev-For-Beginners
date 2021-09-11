@@ -21,8 +21,6 @@ curl http://localhost:5000/api
 # -> should return "Bank API v1.0.0" as a result
 ```
 
----
-
 ## Fikirkan semula state management
 
 Dalam [pelajaran sebelumnya](../../3-data/translations/README.md), kami memperkenalkan konsep dasar keadaan dalam aplikasi kami dengan pemboleh ubah `akaun` global yang mengandungi data bank untuk pengguna yang sedang log masuk. Walau bagaimanapun, pelaksanaan kami sekarang mempunyai beberapa kekurangan. Cuba muat semula halaman semasa anda berada di papan pemuka. Apa yang berlaku?
