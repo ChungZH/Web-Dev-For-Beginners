@@ -21,8 +21,6 @@ curl http://localhost:5000/api
 # -> should return "Bank API v1.0.0" as a result
 ```
 
----
-
 ## Rethink state management
 
 In the [previous lesson](../3-data/README.md), we introduced a basic concept of state in our app with the global `account` variable which contains the bank data for the currently logged in user. However, our current implementation has some flaws. Try refreshing the page when you're on the dashboard. What happens?
