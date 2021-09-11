@@ -14,13 +14,10 @@ Debe haber completado la parte [obtención de datos](../3-data/README.md) de la 
 
 Puede probar que el servidor está funcionando correctamente ejecutando este comando en una terminal:
 
-
 ```sh
 curl http://localhost:5000/api
 # -> debe devolver "API bancaria v1.0.0" como resultado
 ```
-
----
 
 ## Repensar la gestión del estado
 
