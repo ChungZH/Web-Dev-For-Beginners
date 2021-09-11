@@ -21,7 +21,6 @@ curl http://localhost:5000/api
 # -> should return "Bank API v1.0.0" as a result
 ```
 
----
 
 ## 상태 관리에 대하여 다시 생각하기
 
