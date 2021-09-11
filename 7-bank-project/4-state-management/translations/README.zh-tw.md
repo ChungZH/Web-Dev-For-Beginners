@@ -21,8 +21,6 @@ curl http://localhost:5000/api
 # -> should return "Bank API v1.0.0" as a result
 ```
 
----
-
 ## 思考狀態控管
 
 在[前一堂課](../../3-data/translations/README.zh-tw.md)中，我們介紹了應用程式基本的狀態，全域變數 `account` 提供登入帳戶的相關銀行資料。然而，現在的專案存在著一些瑕疵。試著在儀表板介面中重新整理。發生了什麼事？
