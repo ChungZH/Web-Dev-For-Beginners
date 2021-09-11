@@ -21,8 +21,6 @@ curl http://localhost:5000/api
 # -> dovrebbe restituire "Bank API v1.0.0" come risultato
 ```
 
----
-
 ## Ripensare la gestione dello stato
 
 Nella [lezione precedente](../../3-data/translations/README.it.md), è stato introdotto un concetto basico di stato nell'app con la variabile globale `account` che contiene i dati bancari per l'utente attualmente connesso. Tuttavia, l'attuale implementazione presenta alcuni difetti. Si provi ad aggiornare la pagina quando ci si trova nella pagina del cruscotto. Che cosa accade?
